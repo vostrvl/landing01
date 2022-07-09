@@ -1,0 +1,202 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Ubuntu";
+}
+
+p {
+  line-height: 1.6em;
+}
+h1 {
+  font-size: 37px;
+  font-weight: 900;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 100px;
+  background: rgba(77, 192, 254, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(77, 192, 254, 1)),
+    color-stop(41%, rgba(117, 189, 209, 1)),
+    color-stop(100%, rgba(55, 144, 217, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(77, 192, 254, 1) 0%,
+    rgba(117, 189, 209, 1) 41%,
+    rgba(55, 144, 217, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+  color: #fff;
+  padding-bottom: 145px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 650px;
+}
+
+.offer {
+  margin-top: 150px;
+  font-family: "ubuntu";
+  font-size: 37px;
+}
+
+.title span {
+  font-size: 59px;
+  font-weight: 900;
+}
+
+.intro {
+  width: 400px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background: #ffd429;
+  font-size: 15px;
+  color: #000;
+  font-family: "montserrat";
+  font-weight: 900;
+  width: 220px;
+  height: 55px;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ebc220;
+}
+
+.world {
+  margin-top: 60px;
+}
+
+.future {
+  padding-top: 107px;
+  padding-bottom: 120px;
+}
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "ubuntu";
+}
+
+.lifes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.life-title {
+  font-size: 19px;
+  padding-top: 30px;
+}
+
+.life {
+  text-align: center;
+  width: 370px;
+}
+
+.life2 {
+  width: 300px;
+}
+
+.ticket {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: #ecf2f8;
+}
+
+.data {
+  padding-bottom: 50px;
+}
+
+.footer {
+  background: #164d7a;
+  height: 135px;
+}
+
+.section-title {
+  padding-bottom: 56px;
+}
+
+.form {
+  width: 343px;
+  height: 48px;
+  border-radius: 3px;
+  border: 1px solid #bbbbbb;
+  margin-bottom: 14px;
+  padding-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit {
+  padding-top: 14px;
+}
